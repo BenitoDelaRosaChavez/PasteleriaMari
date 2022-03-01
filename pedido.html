@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <nav class="navbar-main">
+        <div class="main-menu">
+        <ul class="menu">
+            <li><img src="./assets/img/logoPasteleria.png" alt="Logo Pasteleria Mari"></li>
+            <li><a href="#">Pasteles</a></li>
+            <li><a href="#">Gelatinas</a></li>
+            <li><a href="#">Sucursales</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="./pedido.html">Hacer pedido</a></li>
+        </ul>
+    </div>
+    </nav>
+    <div class="mainContainerPedido">
+        <div class="h2title">
+            <h2>Sabores que encantan</h2>
+        </div>
+        <h3 class="h3pedido">Es momento de armar tu pedido</h3>
+        
+
+        <form action="" class="formpedido">
+            <label for="nombre">Nombre Completo</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="telefono">Ingresa tu numero de telefono</label><br>
+            <input type="tel" name="telefono" id="telefono"><br><br>
+            <label for="direccion">Ingresa la direccion de envio</label><br><br>
+            <input type="text" id="direccion" name="direccion" ><br><br>
+            <label for="correo">Ingresa tu coreeo electronico</label><br>
+            <input type="email" name="correo" id="correo"><br>
+            <p>Selecciona el sabor de tu pastel</p>
+            <input type="checkbox" name="pasteles" id="pastelCalabaza" value="pastelCalabaza">
+            <label for="pastelCalabaza">Pastel Calabaza</label><br>
+            <input type="checkbox" name="pasteles" id="pastelNube" value="pastelNube">
+            <label for="pastelNube">Pastel Nube</label><br>
+            <input type="checkbox" name="pasteles" id="pastelDurazno" value="pastelDurazno">
+            <label for="pastelDurazno">Pastel Durazno</label><br>
+            <input type="checkbox" name="pasteles" id="pastelRemolacha" value="pastelRemolacha">
+            <label for="pastelRemolacha">Pastel Remolacha</label>
+            <p>Selecciona el accesorio ideal</p>
+            <input type="checkbox" name="accesorios" id="globos" value="globos">
+            <label for="globos">Globos</label><br>
+            <input type="checkbox" name="accesorios" id="globosletras" value="globosletras">
+            <label for="globosletras">Globos Letras</label><br>
+            <input type="checkbox" name="accesorios" id="letrerocumpleanos" value="letrerocumpleaños">
+            <label for="letrerocumpleaños">Letrero cumpleaños</label><br>
+            <input type="checkbox" name="accesorios" id="velascumpleanos" value="velascumpleaños">
+            <label for="velascumpleaños">Velas para cumpleaños</label><br><br>
+            <button type="submit">Ir al pago</button>
+        
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
